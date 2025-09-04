@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ApexPlanet Task 3 - Responsive Quiz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Quiz Game</h1>
+    <button id="theme-toggle">🌙 Dark Mode</button>
+  </header>
+
+  <!-- Quiz Section -->
+  <main class="quiz-container">
+    <h2 id="question"></h2>
+    <div class="options-grid" id="options"></div>
+    <p id="feedback"></p>
+    <p id="score"></p>
+    <button id="restart-btn" onclick="restartQuiz()">Restart</button>
+  </main>
+
+  <!-- API Section -->
+  <section class="api-section">
+    <h2>Random Joke Generator</h2>
+    <button onclick="getJoke()">Get Joke</button>
+    <p id="joke"></p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
