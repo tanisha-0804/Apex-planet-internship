@@ -1,0 +1,98 @@
+/* General */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background: #333;
+  color: #fff;
+  padding: 10px 20px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+.nav-links li {
+  margin-left: 15px;
+}
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 20px;
+  color: #fff;
+}
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+  background: #f4f4f4;
+}
+.section {
+  padding: 40px 20px;
+  text-align: center;
+}
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px;
+  background: #333;
+  color: #fff;
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #222;
+  color: #fff;
+}
+/* To-Do App */
+.todo-container {
+  max-width: 400px;
+  margin: auto;
+}
+#taskList {
+  list-style: none;
+  padding: 0;
+}
+#taskList li {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  margin: 5px 0;
+  background: #f1f1f1;
+  border-radius: 4px;
+}
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+/* Products */
+.controls {
+  margin: 20px 0;
+}
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 15px;
+  padding: 20px;
+}
+.product {
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 8px;
+  background: #fff;
+}
